@@ -16,12 +16,12 @@ group='com.github.readium'
 android {
     flavorDimensions "testapp"
 
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 28
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -60,7 +60,7 @@ dependencies {
     intTestappImplementation 'com.github.readium:r2-shared-kotlin:develop-SNAPSHOT'
     intTestappWithLcpImplementation 'com.github.readium:r2-shared-kotlin:develop-SNAPSHOT'
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'nl.komponents.kovenant:kovenant:3.3.0'
     implementation 'joda-time:joda-time:2.9.9'
     implementation 'com.github.kittinunf.fuel:fuel:1.15.0' //for JVM
